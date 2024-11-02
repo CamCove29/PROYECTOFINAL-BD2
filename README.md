@@ -38,8 +38,6 @@ A continuación, una descripción breve de los tipos de datos manejados en cada 
 ### Importancia de Aplicar Indexación
 La indexación es una técnica esencial en sistemas de gestión de datos que permite realizar búsquedas rápidas y eficientes, mejorando la experiencia del usuario y optimizando el uso de recursos en grandes volúmenes de datos.
 
-## Enfoques Clave de la Indexación
-
 1. **Índices Invertidos**  
    Los índices invertidos son ideales para buscar términos específicos en grandes colecciones de texto. Este método asocia cada término con una lista de documentos donde aparece, permitiendo una búsqueda rápida sin escanear toda la base de datos. Es fundamental en motores de búsqueda y sistemas de recuperación de texto.
 
