@@ -1,4 +1,6 @@
 # PROYECTO 2&3 BD2
+##Integrantes:
+- Camila Milagros Coveñas Rojas
 ## Introducción
 ### Objetivo del Proyecto
 Este proyecto está enfocado en desarrollar un proyecto integral de base de datos que soporte tanto el modelo relacional basado en tablas como técnicas avanzadas de recuperación de información basadas en el contenido de documentos textuales y objetos multimedia. 
