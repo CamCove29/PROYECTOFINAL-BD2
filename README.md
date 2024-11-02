@@ -4,7 +4,9 @@
 Este proyecto está enfocado en desarrollar un proyecto integral de base de datos que soporte tanto el modelo relacional basado en tablas como técnicas avanzadas de recuperación de información basadas en el contenido de documentos textuales y objetos multimedia. 
 ### Descripción del Dataset 
 El dominio de datos escogido para este proyecto consiste en un conjunto de más de 18000 canciones de Spotify, incluidos el artista, el álbum, las características de audio (por ejemplo, el volumen), las letras, el idioma de las letras, los géneros y subgéneros (https://www.kaggle.com/code/harrimansaragih/exploratory-data-analysis-18k-spotify-songs/notebook).
+
 ![image](https://github.com/user-attachments/assets/16b14056-eef6-4da8-8c7f-a533276a5343)
+
 A continuación, una descripción breve de los tipos de datos manejados en cada campo del dataset:
 | Variable                | Tipo       | Descripción                                                                                                                                                                                                                                                                                                           |
 |-------------------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
