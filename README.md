@@ -1,5 +1,5 @@
 # PROYECTO 2&3 BD2
-##Integrantes:
+## Integrantes:
 - Camila Milagros Coveñas Rojas
 ## Introducción
 ### Objetivo del Proyecto
