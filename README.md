@@ -9,8 +9,10 @@ Este proyecto está enfocado en desarrollar un proyecto integral de base de dato
 ### Descripción del Dataset 
 Fashion Products Dataset (https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset/data), es una recopilación estructurada de información sobre productos de moda. Esta información se separa en dos archivos principales .csv:      
 styles.csv: Este archivo contiene las columnas id, gender, masterCategory, subCategory, articleType, baseColour, season, year, usage, productDisplayName. La información de cada producto es representada en una fila:
+
 ![image](https://github.com/user-attachments/assets/4d750c32-5c14-4f8e-a1bc-a189f289d081)
 images.csv: Este archivo contiene las columnas filename,link, donde filename representa el id de cada imagen y link representa la ubicación de cada imagen.
+
 ![image](https://github.com/user-attachments/assets/666c724e-957a-47f4-9892-8f75fbb9df04)
 ### Importancia de Aplicar Indexación
 La indexación es una técnica esencial en sistemas de gestión de datos que permite realizar búsquedas rápidas y eficientes, mejorando la experiencia del usuario y optimizando el uso de recursos en grandes volúmenes de datos.
@@ -22,6 +24,7 @@ La indexación es una técnica esencial en sistemas de gestión de datos que per
 Se cargo los vectores y caracteristicas usando registros de longitud fija y variable para no cargar todo el dataset en memoria principal así como los ids de las imagenes se cargaron en memoria secundaria y se encuentran con una busqueda binaria. 
 ### Construcción del Índice Invertido
 El dataset que hemos usado en este proyecto no puede manejarse en memoria RAM, por tal motivo hemos optado por una solución escalable que tome en cuenta las consideraciones de hardware: memoria, disco, velocidad. Por temas de facilidad (considerando la longitud variable)manejaremos los diccionarios de la data archivos .json. Nuestra implementación se basa en el algoritmo SPIMI (Single Pass In-Memory Indexing), el cual es utilizado para la construcción eficiente de índices invertidos.
+
 ![image](https://github.com/user-attachments/assets/6621c10e-573c-4340-8159-0f8c44ba4fae)
 ### Optimización de Consultas con Similitud de Coseno
 ### Construcción del Índice Invertido en PostgreSQL
