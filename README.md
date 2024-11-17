@@ -11,7 +11,7 @@ Fashion Products Dataset (https://www.kaggle.com/datasets/paramaggarwal/fashion-
 styles.csv: Este archivo contiene las columnas id, gender, masterCategory, subCategory, articleType, baseColour, season, year, usage, productDisplayName. La información de cada producto es representada en una fila:
 ![image](https://github.com/user-attachments/assets/4d750c32-5c14-4f8e-a1bc-a189f289d081)
 images.csv: Este archivo contiene las columnas filename,link, donde filename representa el id de cada imagen y link representa la ubicación de cada imagen.
-![image](https://github.com/user-attachments/assets/df484974-cc92-4e74-9bd6-adc77d5aed03)
+![image](https://github.com/user-attachments/assets/666c724e-957a-47f4-9892-8f75fbb9df04)
 ### Importancia de Aplicar Indexación
 La indexación es una técnica esencial en sistemas de gestión de datos que permite realizar búsquedas rápidas y eficientes, mejorando la experiencia del usuario y optimizando el uso de recursos en grandes volúmenes de datos.
 1. **Índices Invertidos**  
