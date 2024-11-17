@@ -18,3 +18,7 @@ La indexación es una técnica esencial en sistemas de gestión de datos que per
    Los índices invertidos son ideales para buscar términos específicos en grandes colecciones de texto. Este método asocia cada término con una lista de documentos donde aparece, permitiendo una búsqueda rápida sin escanear toda la base de datos. Es fundamental en motores de búsqueda y sistemas de recuperación de texto.
 2. **Índices Multidimensionales**  
    Utilizados para datos con múltiples atributos, como coordenadas geográficas o características musicales. Los índices multidimensionales permiten consultas complejas en bases de datos con información de alta dimensionalidad. Estructuras como R-trees y KD-trees son comunes en aplicaciones de geolocalización y análisis de datos espaciales.
+## Backend: Índice Invertido
+### Construcción del Índice Invertido
+### Optimización de Consultas con Similitud de Coseno
+### Construcción del Índice Invertido en PostgreSQL
