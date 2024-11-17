@@ -19,6 +19,9 @@ La indexación es una técnica esencial en sistemas de gestión de datos que per
 2. **Índices Multidimensionales**  
    Utilizados para datos con múltiples atributos, como coordenadas geográficas o características musicales. Los índices multidimensionales permiten consultas complejas en bases de datos con información de alta dimensionalidad. Estructuras como R-trees y KD-trees son comunes en aplicaciones de geolocalización y análisis de datos espaciales.
 ## Backend: Índice Invertido
+Se cargo los vectores y caracteristicas usando registros de longitud fija y variable para no cargar todo el dataset en memoria principal así como los ids de las imagenes se cargaron en memoria secundaria y se encuentran con una busqueda binaria. 
 ### Construcción del Índice Invertido
+El dataset que hemos usado en este proyecto no puede manejarse en memoria RAM, por tal motivo hemos optado por una solución escalable que tome en cuenta las consideraciones de hardware: memoria, disco, velocidad. Por temas de facilidad (considerando la longitud variable)manejaremos los diccionarios de la data archivos .json. Nuestra implementación se basa en el algoritmo SPIMI (Single Pass In-Memory Indexing), el cual es utilizado para la construcción eficiente de índices invertidos.
+![image](https://github.com/user-attachments/assets/6621c10e-573c-4340-8159-0f8c44ba4fae)
 ### Optimización de Consultas con Similitud de Coseno
 ### Construcción del Índice Invertido en PostgreSQL
