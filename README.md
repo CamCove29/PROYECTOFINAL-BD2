@@ -26,5 +26,15 @@ Se cargo los vectores y caracteristicas usando registros de longitud fija y vari
 El dataset que hemos usado en este proyecto no puede manejarse en memoria RAM, por tal motivo hemos optado por una solución escalable que tome en cuenta las consideraciones de hardware: memoria, disco, velocidad. Por temas de facilidad (considerando la longitud variable)manejaremos los diccionarios de la data archivos .json. Nuestra implementación se basa en el algoritmo SPIMI (Single Pass In-Memory Indexing), el cual es utilizado para la construcción eficiente de índices invertidos.
 
 ![image](https://github.com/user-attachments/assets/6621c10e-573c-4340-8159-0f8c44ba4fae)
+
+La implementación consiste 
+Nuestra implementación consiste en:
+
+Leer el archivo .csv de acuerdo a cantidad de un buffer (considerando que tome nro exacto de filas, es decir, no haga particion de filas)
+Preprocesar cada fila
+Concatenar datos de cada fila (calculando la norma y el peso de cada palabra por fila)
+
 ### Optimización de Consultas con Similitud de Coseno
+
+
 ### Construcción del Índice Invertido en PostgreSQL
