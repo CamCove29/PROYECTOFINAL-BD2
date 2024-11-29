@@ -34,25 +34,23 @@ Nuestra implementación consiste en:
 ![image](https://github.com/user-attachments/assets/7c2afa53-9bbc-44b5-8905-e9b6f67aa959)
 ### Elementos de la fórmula
 
-#### ** \(\|v\|\): **
+#### **|v|:**
 - Representa la **norma** del vector \(v\).
 - Es un escalar (un único número) que mide la **magnitud** o **longitud** del vector \(v\).
 - En este contexto, el vector \(v\) puede representar los **pesos de las palabras** en una fila de una matriz de términos (por ejemplo, en un índice invertido).
 
 ---
 
-#### ** \(\sum_{i=0}^n\): **
+#### **∑(i=0)^n:**
 - Es el **símbolo de suma**, que indica que se sumarán los términos desde el índice \(i = 0\) hasta \(i = n\).
 - El **índice \(i\)** representa la posición de cada palabra en la fila.
 - **\(n\)** es el **número total de palabras o términos en la fila** (o el tamaño del vector).
 
 ---
 
-#### **\((v_i)^2\):**
+#### **(v_i)^2:**
 - Es el **cuadrado del peso** del término \(i\).
 - Esto se hace porque la fórmula de la **norma euclidiana** se basa en el **teorema de Pitágoras**: suma de los cuadrados de las coordenadas.
-
----
 
 ### Optimización de Consultas con Similitud de Coseno
 
