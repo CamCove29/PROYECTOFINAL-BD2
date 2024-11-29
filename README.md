@@ -1,11 +1,9 @@
 # PROYECTO 2&3 BD2
-## Integrantes:
-- Camila Milagros Coveñas Rojas
 ## Introducción
 ### Objetivo del Proyecto
 Este proyecto está enfocado en desarrollar un proyecto integral de base de datos que soporte tanto el modelo relacional basado en tablas como técnicas avanzadas de recuperación de información basadas en el contenido de documentos textuales y objetos multimedia. 
 
-![Clothing department store interior](https://github.com/user-attachments/assets/b4d4cfcf-30b0-4b5b-b798-491ff841eb04)
+![image](https://github.com/user-attachments/assets/75f19449-8ec8-474d-b9bb-ceed32e9db96)
 ### Descripción del Dataset 
 Fashion Products Dataset (https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset/data), es una recopilación estructurada de información sobre productos de moda. Esta información se separa en dos archivos principales .csv:      
 styles.csv: Este archivo contiene las columnas id, gender, masterCategory, subCategory, articleType, baseColour, season, year, usage, productDisplayName. La información de cada producto es representada en una fila:
