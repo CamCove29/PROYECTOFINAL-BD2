@@ -4,17 +4,15 @@ import psycopg2
 import csv
 import sys;
 
-sys.path.append(r'C:\Users\ASUS\OneDrive - UNIVERSIDAD DE INGENIERIA Y TECNOLOGIA\Ciclo 5\BASE DE DATOS 2 - Sanchez Enriquez, Heider Ysaias\PROYECTOS\PROYECTO 2\proyecto_python\Project2_db2\MultidimensionalIndex') #path to InvertedIndex
-#importar la clase KNN_Secuencial del modulo knn_secuencial
-from knn_secuencial import KNN_Secuencial 
+sys.path.append(r'C:\Users\Camila\Desktop\PROYECTOFINAL-BD2\MultidimensionalIndex')  # Ruta al directorio del índice invertido#importar la clase KNN_Secuencial del modulo knn_secuencial
+from knn_secuencial import KNN_Secuencial
 #llamamos a la funcion knn_search del modulo knn-rtree
 from knn_rtree import KNN_R_Tree
 #llamamos a la funcion knn_search del modulo knn-high-d
 from knn_high_d import KNN_High_D_Tree
 
 
-sys.path.append(r'C:\Users\ASUS\OneDrive - UNIVERSIDAD DE INGENIERIA Y TECNOLOGIA\Ciclo 5\BASE DE DATOS 2 - Sanchez Enriquez, Heider Ysaias\PROYECTOS\PROYECTO 2\proyecto_python\Project2_db2\InvertedIndex') #path to InvertedIndex
-from InvertedIndex import InvertedIndex #importar la clase InvertedIndex del modulo InvertedIndex
+sys.path.append(r'C:\Users\Camila\Desktop\PROYECTOFINAL-BD2\InvertedIndex')  # Ruta al directorio del índice invertidofrom InvertedIndex import InvertedIndex #importar la clase InvertedIndex del modulo InvertedIndex
 from read_byte import get_row #importar la funcion get_row del modulo read_byte
 #imrportamos la funcion init del modulo sql_Pesos
 from sql_Pesos import init
