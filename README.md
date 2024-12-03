@@ -158,9 +158,19 @@ cursor.execute(consulta)
 rows = cursor.fetchall()
  ```
 ### Screeenshots de la GUI
-
+Pantalla Principal y Única:
+![frontend01](https://github.com/user-attachments/assets/3de8aeb9-9788-4c0a-837b-f49509f105ed)
 ### Resultados de la query
+- Aplicamos la query textual *"red shoes"*
+  - Resultados con índice invertido
+     ![frontend02](https://github.com/user-attachments/assets/f52dbf6c-863e-4079-affc-0ecd7de15c45)
 
+  - Resultados con postgresSQL
+    ![frontend03](https://github.com/user-attachments/assets/15a29865-46a1-4b2e-a3e2-3fe88588b2ba)
 
 ## Análisis y Discución
+- Al comparar nuestras consultas textuales con los resultados generados en PostgreSQL, encontramos que nuestra implementación ofrece una mayor eficiencia al devolver resultados relevantes.
+- PostgreSQL realiza búsquedas más precisas cuando utiliza el operador AND ("&") para unir cada palabra de la consulta. Sin embargo, al emplear el operador OR ("|"), no considera la frecuencia de los términos en los resultados, lo que da lugar a respuestas menos relevantes. Esto se evidenció al ejecutar una consulta que contenía un término común (como "casual"), donde las palabras frecuentes no fueron adecuadamente diferenciadas de las menos comunes.
+
+
 
